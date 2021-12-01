@@ -1,20 +1,20 @@
 // Dependencies
-const path = require("path");
+// const path = require("path");
 
-// Routing
+// // Routing
 
-module.exports = function (app){
+// module.exports = function (app){
 
-    // HTML GET Requests
-    // Below code handles when users 'visit' a page.
-    // In each of the below cases the user is shown an HTML page of content
+//     // HTML GET Requests
+//     // Below code handles when users 'visit' a page.
+//     // In each of the below cases the user is shown an HTML page of content
 
     
-    app.get('/notes', function(request, response) {
-        response.sendFile(path.join(__dirname, '../public/notes.html'));
-    });
+//     app.get('/notes', function(request, response) {
+//         response.sendFile(path.join(__dirname, '../public/notes.html'));
+//     });
 
-    app.get('*', function(request, response) {
-        response.sendFile(path.join(__dirname, '../public/index.html'));
-    });
-};
+//     app.get('*', function(request, response) {
+//         response.sendFile(path.join(__dirname, '../public/index.html'));
+//     });
+// };
