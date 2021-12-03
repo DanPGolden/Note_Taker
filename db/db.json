@@ -1,1 +1,6 @@
-[{"title":"Test Title","text":"Test text"},{"title":"Dry Cleaning","text":"Pick up dry cleaning at 1700\n","id":"2fvf144wkwpccuyw"},{"title":"Dentist Appointment","text":"Friday at 11:30\n","id":"2fvf144wkwpcdpib"}]
+[
+    {
+        "title":"Test Title",
+        "text":"Test text"
+    }
+]
